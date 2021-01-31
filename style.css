@@ -1,3 +1,15 @@
 .invisible{
   display: none;
 }
+
+.question::before {
+  content: "Q:";
+}
+
+.question{
+  font-style: italic;
+}
+
+.answer::before {
+  content: "Q:";
+}
