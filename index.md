@@ -2,14 +2,6 @@
 
 <img class="posg-logo" src="assets/posg_logo.png" alt="PoSG logo">
 
-<!--start dictionary section-->
-<script>
-  const dictionary = {
-    "dnd":["dnd","5th","SRD","OGL"]
-  };
-</script>
-<!--end dictionary section-->
-
 <!--start interaction section-->
 <input type="text" id="input-query" name="query">
 <button type="button" id="btn-reset">Reset!</button>
@@ -24,6 +16,13 @@
 
 <!--start script section-->
 <script>
+  
+  <!--start dictionary section-->
+  const dictionary = {
+    "dnd":["dnd","5th","SRD","OGL"]
+  };
+  <!--end dictionary section-->
+  
   let input = document.getElementById("input-query");
   input.addEventListener('input', function (evt) {
     onInput(input.value);
@@ -58,6 +57,7 @@
     
     tagList.forEach(tag => {
       let entries = dictionary[tag];
+      console.log(entries);
       if(!entries){
         //continue;
         tagSummary.concat([tag]);
