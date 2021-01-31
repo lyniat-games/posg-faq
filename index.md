@@ -40,7 +40,7 @@
     Array.from(aqs).forEach(element => {
       let has = hasQuery(element,value);
       if(has){
-        element.classList.add('visible');
+        element.classList.remove('invisible');
       }else{
         element.classList.add('invisible');
       }
