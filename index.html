@@ -2,7 +2,25 @@
 
 <!--start script section-->
 <script>
+  let input = document.getElementById("input-query");
+  input.addEventListener('input', function (evt) {
+    onInput(input.value);
+  });
   
+  function onInput(value){
+    if(value === ""){
+      reset();
+      return;
+    }
+    
+    let aqs = document.getElementsByClassName("aq");
+    aqs.forEach(element => element.classList.add('invisible'));
+  }
+  
+  function reset(){
+    let aqs = document.getElementsByClassName("aq");
+    aqs.forEach(element => element.classList.remove('invisible'));
+  }
 </script>
 <!--end script section-->
 
