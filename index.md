@@ -28,6 +28,11 @@
     onInput(input.value);
   });
   
+  let resetButton = document.getElementById("btn-reset");
+  resetButton.addEventListener('click', function (evt) {
+    reset();
+  });
+  
   function onInput(value){
     if(value === ""){
       reset();
@@ -74,8 +79,7 @@
   }
   
   function reset(){
-    let input = document.getElementById("input-query");
-    input.value = "";
+    document.getElementById("input-query").value = "";
     let aqs = document.getElementsByClassName("aq");
     Array.from(aqs).forEach(element => element.classList.remove('invisible'));
   }
