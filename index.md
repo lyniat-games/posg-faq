@@ -34,6 +34,8 @@
       return;
     }
     
+    value = value.toLowerCase();
+    
     let aqs = document.getElementsByClassName("aq");
     /*element.classList.add('invisible')*/
     Array.from(aqs).forEach(element => {
@@ -61,9 +63,9 @@
       console.log(entries);
       if(!entries){
         //continue;
-        tagSummary.concat([tag]);
+        tagSummary = tagSummary.concat([tag]);
       }
-      tagSummary.concat(entries);
+      tagSummary = tagSummary.concat(entries);
       
       console.log(tagSummary);
     
