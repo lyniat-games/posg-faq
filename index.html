@@ -28,12 +28,12 @@
     }
     
     let aqs = document.getElementsByClassName("aq");
-    aqs.forEach(element => element.classList.add('invisible'));
+    Array.from(aqs).forEach(element => element.classList.add('invisible'));
   }
   
   function reset(){
     let aqs = document.getElementsByClassName("aq");
-    aqs.forEach(element => element.classList.remove('invisible'));
+    Array.from(aqs).forEach(element => element.classList.remove('invisible'));
   }
 </script>
 <!--end script section-->
