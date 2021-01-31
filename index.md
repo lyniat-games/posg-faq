@@ -7,9 +7,6 @@
 <button type="button" id="btn-reset">Reset!</button>
 <!--end interaction section-->
 
-When do you release Paths of Savage Gods (PoSG)?
-  We plan to start our Kickstarter Campaign of PoSG in February 2021. So keep tuned! We hope that we can release PoSG in June or July 2021.
-
 <div class="faq-section">
   <!-- QUESTION 00 -->
   <div class="aq" tags="faq0,dnd">
