@@ -56,6 +56,7 @@
     let tagSummary = [];
     
     tagList.forEach(tag => {
+      console.log(tag);
       let entries = dictionary[tag];
       console.log(entries);
       if(!entries){
@@ -63,20 +64,22 @@
         tagSummary.concat([tag]);
       }
       tagSummary.concat(entries);
-    });
+      
+      console.log(tagSummary);
     
-    console.log(tagSummary);
-    
-    tagSummary.forEach(tag => {
-      if(tag === query){
-        return true;
-      }
+      tagSummary.forEach(tag => {
+        if(tag === query){
+          return true;
+        }
+      });
     });
     
     return false;
   }
   
   function reset(){
+    let input = document.getElementById("input-query");
+    input.value = "";
     let aqs = document.getElementsByClassName("aq");
     Array.from(aqs).forEach(element => element.classList.remove('invisible'));
   }
