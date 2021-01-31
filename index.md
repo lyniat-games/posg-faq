@@ -62,21 +62,15 @@
       let entries = dictionary[tag];
       console.log(entries);
       if(!entries){
-        //continue;
         tagSummary = tagSummary.concat([tag]);
+      }else{
+        tagSummary = tagSummary.concat(entries);
       }
-      tagSummary = tagSummary.concat(entries);
       
       console.log(tagSummary);
-    
-      tagSummary.forEach(tag => {
-        if(tag === query){
-          return true;
-        }
-      });
     });
     
-    return false;
+    return tagSummary.includes(query);
   }
   
   function reset(){
