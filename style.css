@@ -3,7 +3,7 @@
 }
 
 .question::before {
-  content: "Q:";
+  content: "Q: ";
   font-size: 18px;
   color: #990000;
 }
@@ -15,5 +15,5 @@
 }
 
 .answer::before {
-  content: "A:";
+  content: "A: ";
 }
