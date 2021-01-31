@@ -50,7 +50,9 @@
   function hasQuery(element,query){
   
     let tags = element.getAttribute("tags");
+    console.log(tags);
     let tagList = tags.split(",");
+    console.log(tagList);
     
     let tagSummary = [];
     
@@ -62,6 +64,8 @@
       }
       tagSummary.concat(entries);
     });
+    
+    console.log(tagSummary);
     
     tagSummary.forEach(tag => {
       if(tag === query){
