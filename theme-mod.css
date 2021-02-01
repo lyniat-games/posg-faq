@@ -28,3 +28,7 @@ footer p small:after{
   color: #FFFFFF !important;
   content: ". Edited by lyniat.games.";
 }
+
+header {
+  display: none;
+}
