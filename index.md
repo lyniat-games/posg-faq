@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="theme-mod.css">
 
 <img class="posg-logo" src="assets/posg_logo.png" alt="PoSG logo">
 
