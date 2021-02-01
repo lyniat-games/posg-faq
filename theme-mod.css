@@ -19,3 +19,12 @@ html {
 h1, h2, h3, h4, h5{
   color: #CFBB61 !important;
 }
+
+footer p small{
+  color: #FFFFFF !important;
+}
+
+footer p small:after{
+  color: #FFFFFF !important;
+  content: "Edited by lyniat.games.";
+}
