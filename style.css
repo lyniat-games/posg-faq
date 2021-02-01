@@ -17,3 +17,8 @@
 .answer::before {
   content: "A: ";
 }
+
+.faq-section{
+  border-radius: 15px;
+  background: #7A7A7A7A;
+}
