@@ -26,5 +26,5 @@ footer p small{
 
 footer p small:after{
   color: #FFFFFF !important;
-  content: "Edited by lyniat.games.";
+  content: ". Edited by lyniat.games.";
 }
