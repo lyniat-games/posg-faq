@@ -1,9 +1,10 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="theme-mod.css">
 
-<!-- <img class="posg-logo" src="assets/posg_logo.png" alt="PoSG logo"> -->
+<img class="logo" src="assets/posg_logo.png" alt="PoSG logo">
 
 <!--start interaction section-->
+<p>Search: </p>
 <input type="text" id="input-query" name="query">
 <button type="button" id="btn-reset">Reset!</button>
 <!--end interaction section-->
