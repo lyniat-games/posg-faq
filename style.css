@@ -5,13 +5,13 @@
 .question::before {
   content: "Q: ";
   font-size: 18px;
-  color: #990000;
+  color: #CFBB61;
 }
 
 .question{
   font-style: italic;
   font-size: 18px;
-  color: #990000;
+  color: #CFBB61;
 }
 
 .answer::before {
