@@ -9,7 +9,7 @@
 <!--end interaction section-->
 
 <div class="faq-section">
-  { content/faq.html }
+  {% include_relative content/faq.html %}
 </div>
 
 <!--start script section-->
