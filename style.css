@@ -12,10 +12,12 @@
   font-style: italic;
   font-size: 18px;
   color: #CFBB61;
+  margin: 0;
 }
 
 .answer::before {
   content: "A: ";
+  color: #CFBB61;
 }
 
 .faq-section{
