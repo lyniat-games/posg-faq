@@ -20,12 +20,16 @@ h1, h2, h3, h4, h5{
   color: #CFBB61 !important;
 }
 
+p {
+  color: #F7F7F7 !important;
+}
+
 footer p small{
-  color: #FFFFFF !important;
+  color: #F7F7F7 !important;
 }
 
 footer p small:after{
-  color: #FFFFFF !important;
+  color: #F7F7F7 !important;
   content: ". Edited by lyniat.games.";
 }
 
