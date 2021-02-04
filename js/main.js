@@ -18,12 +18,16 @@ let input = document.getElementById("input-query");
     document.getElementById("input-query").value = query;
     onInput(query);
   }
+
+  let foundEntries = 0;
   
   function onInput(value){
     if(value === ""){
       reset();
       return;
     }
+    
+    foundEntries = 0;
     
     value = value.toLowerCase();
     
@@ -32,6 +36,7 @@ let input = document.getElementById("input-query");
     Array.from(aqs).forEach(element => {
       let has = hasQuery(element,value);
       if(has){
+        foundEntries++;
         element.classList.remove('invisible');
       }else{
         element.classList.add('invisible');
@@ -42,23 +47,18 @@ let input = document.getElementById("input-query");
   function hasQuery(element,query){
   
     let tags = element.getAttribute("tags");
-    console.log(tags);
     let tagList = tags.split(",");
-    console.log(tagList);
     
     let tagSummary = [];
     
     tagList.forEach(tag => {
-      console.log(tag);
       let entries = dictionary[tag];
-      console.log(entries);
       if(!entries){
         tagSummary = tagSummary.concat([tag]);
       }else{
         tagSummary = tagSummary.concat(entries);
       }
       
-      console.log(tagSummary);
     });
     
     return tagSummary.includes(query);
