@@ -5,8 +5,10 @@
 <a href="https://savage-gods.com"><img class="logo" src="assets/posg_logo.png" alt="PoSG logo"></a>
 
 <!--start interaction section-->
-<input type="text" id="input-query" name="query">
-<button type="button" id="btn-reset">Reset!</button>
+<div class="interaction">
+  <input type="text" id="input-query" name="query">
+  <button type="button" id="btn-reset">Reset!</button>
+</div>
 <!--end interaction section-->
 
 <div class="faq-section">
