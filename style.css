@@ -24,6 +24,10 @@
   color: #CFBB61;
 }
 
+.btn-share {
+  display: none;
+}
+
 .btn-share::after {
   content: "Copy link to this answer to clipboard!";
   color: #C30000;
