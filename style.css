@@ -1,4 +1,4 @@
-.invisible{
+.invisible {
   display: none;
 }
 
@@ -8,7 +8,7 @@
   color: #CFBB61;
 }
 
-.question{
+.question {
   font-style: italic;
   font-size: 18px;
   color: #CFBB61;
@@ -24,13 +24,19 @@
   color: #CFBB61;
 }
 
-.faq-section{
+.faq-section {
   border-radius: 15px;
   padding: 10px;
   background: #262728AB;
 }
 
-.logo{
+.interaction {
+  border-radius: 15px;
+  padding: 10px;
+  background: #262728AB;
+}
+
+.logo {
   width: 100%;
   height: auto;
 }
