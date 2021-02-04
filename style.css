@@ -12,11 +12,11 @@
   font-style: italic;
   font-size: 18px;
   color: #CFBB61;
-  margin: 12px 0 0 0;
+  margin: 25px 0 0 0;
 }
 
 .answer {
-  margin: 0 0 12px 0;
+  margin: 0 0 25px 0;
 }
 
 .answer::before {
