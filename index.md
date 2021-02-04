@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="theme-mod.css">
+<link rel="stylesheet" href="animations.css">
 
 <a href="https://savage-gods.com"><img class="logo" src="assets/posg_logo.png" alt="PoSG logo"></a>
 
