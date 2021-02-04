@@ -1,5 +1,7 @@
 const siteUrl = "https://faq.savage-gods.com";
 
+let foundEntries = 0;
+
 let input = document.getElementById("input-query");
   input.addEventListener('input', function (evt) {
     onInput(input.value);
@@ -22,8 +24,6 @@ addShareButtons();
     document.getElementById("input-query").value = query;
     onInput(query);
   }
-
-  let foundEntries = 0;
 
 function addShareButtons(){
   let aqs = document.getElementsByClassName("aq");
