@@ -6,6 +6,7 @@
 
 <!--start interaction section-->
 <div class="interaction">
+  <p>Search:</p>
   <input type="text" id="input-query" name="query">
   <button type="button" id="btn-reset">Reset!</button>
 </div>
