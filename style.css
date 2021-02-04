@@ -2,6 +2,10 @@
   display: none;
 }
 
+#ghost-input {
+  display: none;
+}
+
 .question::before {
   content: "Q: ";
   font-size: 18px;
