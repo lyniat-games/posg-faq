@@ -19,10 +19,6 @@
   margin: 25px 0 0 0;
 }
 
-.answer {
-  margin: 0 0 25px 0;
-}
-
 .answer::before {
   content: "A: ";
   color: #CFBB61;
@@ -31,6 +27,9 @@
 .btn-share::after {
   content: "Copy link to this answer to clipboard!";
   color: #C30000;
+  margin: 0 0 0 0;
+  font-size: 10px;
+  cursor: pointer;
 }
 
 .faq-section {
