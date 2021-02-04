@@ -28,6 +28,11 @@
   color: #CFBB61;
 }
 
+.btn-share::after {
+  content: "Copy link to this answer to clipboard!";
+  color: #C30000;
+}
+
 .faq-section {
   border-radius: 15px;
   padding: 10px;
